@@ -1,0 +1,17 @@
+# Patient data - DO NOT upload
+*.nii
+*.nii.gz
+*.dcm
+img/
+mask/
+test_nifti/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.spyproject/
+
+# OS
+.DS_Store
+Thumbs.db
