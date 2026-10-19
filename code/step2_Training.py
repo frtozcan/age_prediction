@@ -1,20 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-AŞAMA 2 — ML Model Eğitimi (UZMAN HACİM VERSİYONU)
-=====================================================
-Eğitim verisi olarak uzman ölçümlerini kullanır:
-  maxilla R  → sağ sinüs hacmi (cm³)
-  maxilla L  → sol sinüs hacmi (cm³)
-  maxilla T  → toplam sinüs hacmi (cm³)
 
-Model A — Yaş Tahmini (Regresyon)
-  Giriş : maxilla_R, maxilla_L, maxilla_T
-  Çıkış : yaş
-
-Model B — Cinsiyet Tahmini (Sınıflandırma)
-  Giriş : maxilla_R, maxilla_L, maxilla_T
-  Çıkış : erkek (1) / kadın (0)
-"""
 
 import os
 import numpy as np

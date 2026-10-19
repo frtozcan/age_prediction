@@ -1,13 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-AŞAMA 1 — Veri Toplama
-=======================
-Tüm hastaları işleyip sinüs hacimlerini hesaplar,
-yaş ve cinsiyet bilgisini DOCX'ten alır,
-sonuçları CSV olarak kaydeder.
 
-Bu CSV, Aşama 2'deki ML modelinin eğitim verisi olacak.
-"""
 
 import os
 import re

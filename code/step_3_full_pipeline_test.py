@@ -1,22 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-AŞAMA 3 — Tam Pipeline Testi (UZMAN HACİM VERSİYONU)
-======================================================
-Yeni bir hasta için:
-  1. Segmentasyon modeli  → sağ / sol / toplam sinüs hacmi tahmin eder
-  2. ML yaş modeli        → bu hacimlerden yaş tahmin eder
-  3. ML cinsiyet modeli   → bu hacimlerden cinsiyet tahmin eder
-
-Bağlantı:
-  Excel'deki uzman ölçümleri     → Aşama 2'de model eğitildi
-  Segmentasyon modeli tahmini    → Aşama 3'te aynı özellikler üretilir
-  Hasta eşleştirme               → Hasta_ADI sütunu ("37-14") ile dosya adı ("37-14.nii.gz")
-
-FEATURE_COLS = ['maxilla_R', 'maxilla_L', 'maxilla_T']
-  maxilla_R : Sağ sinüs hacmi  (cm³) — segmentasyon ile tahmin
-  maxilla_L : Sol sinüs hacmi  (cm³) — segmentasyon ile tahmin
-  maxilla_T : Toplam sinüs hacmi (cm³) = R + L
-"""
 
 import os
 import re

@@ -1,19 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-AŞAMA 3 — Tüm Test Hastaları Toplu Tahmin + Excel Raporu
-=========================================================
-Test klasöründeki tüm NIfTI dosyaları için:
-  1. Segmentasyon modeli  -> sag / sol / toplam sinus hacmi
-  2. ML yas modeli        -> yas tahmini
-  3. ML cinsiyet modeli   -> cinsiyet tahmini
-
-Referans verileri: Uzman_kontrol_maske_hacmi2.xlsx
-  Sutunlar: Hasta Adi | no | yas | cinsiyet | maxilla R itk | maxilla L itk | maxilla T
-
-Cikti: E:\3D_sinus\results\toplu_test_sonuclari.xlsx
-  Sayfa 1 "Tahminler" : Hasta bazinda tum degerler + hata oranlari
-  Sayfa 2 "Ozet"      : Genel ve cinsiyet gruplarına gore istatistikler
-"""
 
 import os
 import re
